@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Flowie",
+  "classifications": ["Web", "API"],
+  "identity": "Custom Web Api Template",
+  "name": "CustomTemplate",
+  "description": "Template",
+  "shortName": "customapi",
+  "sourceName": "Custom.Template",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "preferNameDirectory": true
+}
