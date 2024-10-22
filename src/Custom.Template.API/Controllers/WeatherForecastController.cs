@@ -21,7 +21,7 @@ namespace API.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-            Console.WriteLine("TesT without scripts Commit + push");
+            Console.WriteLine("TesT with new scripts Commit + push");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
